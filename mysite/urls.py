@@ -24,9 +24,3 @@ urlpatterns = [
     url(r'', include('blog.urls')),
 ]
 
-
-with open("poem.txt", "r", encoding = "utf-8") as file:
-    data = file.read(1)
-    print(data)
-    data = file.read()
-    print(data)
